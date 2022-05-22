@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(require('./routes/index'));
 app.use('/api/pilotos', require('./routes/pilotos'));
 app.use('/api/pilotosNube', require('./routes/pilotosNube'));
-
+app.use('/api/constructores', require('./routes/constructores'));
 
 //inicia el servidor
 

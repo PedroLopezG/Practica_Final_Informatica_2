@@ -4,7 +4,7 @@ const _ = require('underscore');
 
 const pilotos = require('../pilotos.json');
 
-router.get('/', (req, res) => { //para obtenr todos los pilotos
+router.get('/', (req, res) => { //para obtener todos los pilotos
     res.json(pilotos);
     console.log(pilotos);
 });
@@ -18,6 +18,18 @@ router.get('/:id', (req, res) => { //para obtener un piloto por id
 
 }
 );
+router.get('/:id/:nombre', (req, res) => { //obtener el nombre del piloto
+    const { id, nombre } = req.params;
+    const piloto = _.findWhere(pilotos, { id });
+    console.log(piloto);
+    res.json(piloto.name);
+});
+router.get('/:id/:apellido', (req, res) => {
+    const { id, apellido } = req.params;
+    const piloto = _.findWhere(pilotos, { id });
+    console.log(piloto);
+    res.json(piloto.lastname);
+});
 router.post('/', (req, res) => { //para crear un piloto nuevo
     const { nombre, equipo } = req.body;
     if (nombre, equipo) {
