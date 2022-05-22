@@ -8,7 +8,7 @@ app.set('port', process.env.port || 3000)
 app.set('json spaces', 2);
 
 
-//middleware se carga antes de la ejecución
+//middleware 
 
 app.use(morgan('dev'));
 app.use(express.urlencoded({ extended: false }));
