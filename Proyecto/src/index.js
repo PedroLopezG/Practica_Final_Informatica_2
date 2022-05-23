@@ -1,3 +1,11 @@
+//IMPORTANTE: He creado un script que reinicia la conexión cada vez que se guardan cambios
+// usar "npm run dev" para inciar
+
+
+
+
+
+
 const express = require('express');
 const app = express();
 const morgan = require('morgan');
