@@ -1,3 +1,6 @@
+
+//esto es solo para probar una api externa
+
 const { Router } = require('express');
 const router = Router();
 const fetch = require('node-fetch');
