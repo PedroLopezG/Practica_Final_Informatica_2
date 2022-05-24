@@ -1,3 +1,11 @@
+//IMPORTANTE: He creado un script que reinicia la conexión cada vez que se guardan cambios
+// usar "npm run dev" para inciar
+
+
+
+
+
+
 const express = require('express');
 const app = express();
 const morgan = require('morgan');
@@ -8,7 +16,7 @@ app.set('port', process.env.port || 3000)
 app.set('json spaces', 2);
 
 
-//middleware se carga antes de la ejecución
+//middleware 
 
 app.use(morgan('dev'));
 app.use(express.urlencoded({ extended: false }));
@@ -19,7 +27,7 @@ app.use(express.json());
 app.use(require('./routes/index'));
 app.use('/api/pilotos', require('./routes/pilotos'));
 app.use('/api/pilotosNube', require('./routes/pilotosNube'));
-
+app.use('/api/constructores', require('./routes/constructores'));
 
 //inicia el servidor
 
