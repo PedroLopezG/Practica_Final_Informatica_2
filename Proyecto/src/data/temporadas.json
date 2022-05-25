@@ -16,7 +16,7 @@
         "carreras disputadas": "22",
         "campeon": "Verstappen",
         "equipos": "",
-        "pilotos": "",
+        "pilotos": ["http://localhost:3000/pilotos/1", "http://localhost:3000/pilotos/2"],
         "circuitos": ""
     }
 ]
