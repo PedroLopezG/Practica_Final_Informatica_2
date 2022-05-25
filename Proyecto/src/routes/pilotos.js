@@ -2,7 +2,7 @@ const { Router } = require('express');
 const router = Router();
 const _ = require('underscore');
 
-const pilotos = require('../pilotos.json');
+const pilotos = require('../data/pilotos.json');
 
 router.get('/', (req, res) => { //para obtener todos los pilotos
     res.json(pilotos);
@@ -18,18 +18,37 @@ router.get('/:id', (req, res) => { //para obtener un piloto por id
 
 }
 );
-router.get('/:id/:nombre', (req, res) => { //obtener el nombre del piloto
-    const { id, nombre } = req.params;
+router.get('/:id/nombre', (req, res) => { //obtener el nombre del piloto
+    const { id } = req.params;
     const piloto = _.findWhere(pilotos, { id });
-    console.log(piloto);
-    res.json(piloto.name);
+    console.log(piloto.nombre);
+    res.json(piloto.nombre);
 });
-router.get('/:id/:apellido', (req, res) => {
-    const { id, apellido } = req.params;
+router.get('/:id/dorsal', (req, res) => {
+    const { id } = req.params;
     const piloto = _.findWhere(pilotos, { id });
-    console.log(piloto);
-    res.json(piloto.lastname);
+    console.log(piloto.dorsal);
+    res.json(piloto.dorsal);
 });
+router.get('/:id/equipo', (req, res) => {
+    const { id } = req.params;
+    const piloto = _.findWhere(pilotos, { id });
+    console.log(piloto.equipo);
+    res.json(piloto.equipo);
+});
+router.get('/:id/campeonatos', (req, res) => {
+    const { id } = req.params;
+    const piloto = _.findWhere(pilotos, { id });
+    console.log(piloto.campeonatos);
+    res.json(piloto.campeonatos);
+});
+router.get('/:id/temporadas', (req, res) => {
+    const { id } = req.params;
+    const piloto = _.findWhere(pilotos, { id });
+    console.log(piloto.temporadas);
+    res.json(piloto.temporadas);
+});
+
 router.post('/', (req, res) => { //para crear un piloto nuevo
     const { nombre, equipo } = req.body;
     if (nombre, equipo) {

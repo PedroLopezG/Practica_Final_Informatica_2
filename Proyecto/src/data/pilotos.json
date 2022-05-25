@@ -5,7 +5,7 @@
         "dorsal": "14",
         "equipo": "Alpine",
         "campeonatos": "2",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
         "id": "2",
@@ -13,7 +13,7 @@
         "dorsal": "33",
         "equipo": "Red Bull Racing",
         "campeonatos": "1",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
         "id": "3",
@@ -21,7 +21,7 @@
         "dorsal": "44",
         "equipo": "Mercedes-AMG Petronas",
         "campeonatos": "7",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
         "id": "4",
@@ -29,7 +29,7 @@
         "dorsal": "11",
         "equipo": "Racing Point BWT, Red Bull Racing",
         "campeonatos": "0",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
         "id": "5",
@@ -37,7 +37,7 @@
         "dorsal": "3",
         "equipo": "Renault, Mclaren",
         "campeonatos": "0",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
         "id": "6",
@@ -45,7 +45,7 @@
         "dorsal": "55",
         "equipo": "Mclaren, Ferrari",
         "campeonatos": "0",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
         "id": "7",
@@ -53,7 +53,7 @@
         "dorsal": "23",
         "equi": "Red Bull Racing, Wiliams",
         "campeonatos": "0",
-        "temporadas": "2020"
+        "temporadas": "http://localhost:3000/api/temporadas/1"
     },
     {
         "id": "8",
@@ -61,7 +61,7 @@
         "dorsal": "16",
         "equipo": "Ferrari",
         "campeonatos": "0",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
         "id": "9",
@@ -69,150 +69,150 @@
         "dorsal": "4",
         "equipo": "Mclaren",
         "campeonatos": "0",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
-        "id":"10",
+        "id": "10",
         "nombre": "Piere Gasly",
         "dorsal": "10",
         "equipo": "Alphatauri",
         "campeonatos": "0",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
-        "id":"11",
+        "id": "11",
         "nombre": "Lance Stroll",
         "dorsal": "18",
         "equipo": "Racing Point BWT, Aston Martin",
         "campeonatos": "0",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
-        "id":"12",
+        "id": "12",
         "nombre": "Esteban Ocon",
         "dorsal": "31",
         "equipo": "Renault, Alpine",
         "campeonatos": "0",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
-        "id":"13",
+        "id": "13",
         "nombre": "Sevastian Vettel",
         "dorsal": "5",
         "equipo": "Ferrari, Aston Martin",
         "campeonatos": "4",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
-        "id":"14",
+        "id": "14",
         "nombre": "Daniil Kvyat",
         "dorsal": "26",
         "equipo": "Alphatauri",
         "campeonatos": "0",
-        "temporadas": "2020"
+        "temporadas": "http://localhost:3000/api/temporadas/1"
     },
     {
-        "id":"15",
+        "id": "15",
         "nombre": "Nico Hulkenberg",
         "dorsal": "27",
         "equipo": "Racing Point BWT",
         "campeonatos": "0",
-        "temporadas": "2020"
+        "temporadas": "http://localhost:3000/api/temporadas/1"
     },
     {
-        "id":"16",
+        "id": "16",
         "nombre": "Kimi Räikkönen",
         "dorsal": "99",
         "equipo": "Alfa Romeo Racing",
         "campeonatos": "1",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
-        "id":"17",
+        "id": "17",
         "nombre": "George Russell",
         "dorsal": "63",
         "equipo": "Williams",
         "campeonatos": "0",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
-        "id":"18",
+        "id": "18",
         "nombre": "Romain Grosjean",
         "dorsal": "8",
         "equipo": "Haas",
         "campeonatos": "0",
-        "temporadas": "2020"
+        "temporadas": "http://localhost:3000/api/temporadas/1"
     },
     {
-        "id":"19",
+        "id": "19",
         "nombre": "Kevin Magnussen",
         "dorsal": "20",
         "equipo": "Haas",
         "campeonatos": "0",
-        "temporadas": "2020"
+        "temporadas": "http://localhost:3000/api/temporadas/1"
     },
     {
-        "id":"20",
+        "id": "20",
         "nombre": "Nicholas Latifi",
         "dorsal": "6",
         "equipo": "Williams",
         "campeonatos": "0",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
-        "id":"21",
+        "id": "21",
         "nombre": "Jack Aitken",
         "dorsal": "22",
         "equipo": "Williams",
         "campeonatos": "0",
-        "temporadas": "2020"
+        "temporadas": "http://localhost:3000/api/temporadas/1"
     },
     {
-        "id":"22",
+        "id": "22",
         "nombre": "Pietro Fittipaldi",
         "dorsal": "51",
         "equipo": "Haas",
         "campeonatos": "0",
-        "temporadas": "2020"
+        "temporadas": "http://localhost:3000/api/temporadas/1"
     },
     {
-        "id":"23",
+        "id": "23",
         "nombre": "Valteri Bottas",
         "dorsal": "77",
         "equipo": "Mercedes-AMG Petronas",
         "campeonatos": "0",
-        "temporadas": "2020, 2021"
+        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
     },
     {
-        "id":"24",
+        "id": "24",
         "nombre": "Yuki Tsunoda",
         "dorsal": "22",
         "equipo": "Alphatauri",
         "campeonatos": "0",
-        "temporadas": "2021"
+        "temporadas": "http://localhost:3000/api/temporadas/2"
     },
     {
-        "id":"25",
+        "id": "25",
         "nombre": "Mick Schumacher",
         "dorsal": "47",
         "equipo": "Haas",
         "campeonatos": "0",
-        "temporadas": "2021"
+        "temporadas": "http://localhost:3000/api/temporadas/2"
     },
     {
-        "id":"26",
+        "id": "26",
         "nombre": "Robert Kubica",
         "dorsal": "88",
         "equipo": "Alfa Romeo Racing",
         "campeonatos": "0",
-        "temporadas": "2021"
+        "temporadas": "http://localhost:3000/api/temporadas/2"
     },
     {
-        "id":"27",
+        "id": "27",
         "nombre": "Nikita Mazepin",
         "dorsal": "9",
         "equipo": "Haas",
         "campeonatos": "0",
-        "temporadas": "2021"
+        "temporadas": "http://localhost:3000/api/temporadas/2"
     }
 ]

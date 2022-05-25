@@ -32,5 +32,5 @@ function addItem(item){
 function obtenerTemporadas(){
     let URL = 'localhost:3000/temporadas/'
     return fetch(URL)
-        .then((r) => r.json())
+        .then((r) => r.json()).then(console.log(r))
 }
