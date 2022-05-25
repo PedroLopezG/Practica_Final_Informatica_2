@@ -1,6 +1,22 @@
 [
     {
         "id": "1",
-        "año": "2018"
+        "año": "2020",
+        "edicion": "71",
+        "carreras disputadas": "17",
+        "campeon": "Hamilton",
+        "equipos": "",
+        "pilotos": "",
+        "circuitos": ""
+    },
+    {
+        "id": "2",
+        "año": "2021",
+        "edicion": "72",
+        "carreras disputadas": "22",
+        "campeon": "Verstappen",
+        "equipos": "",
+        "pilotos": "",
+        "circuitos": ""
     }
 ]

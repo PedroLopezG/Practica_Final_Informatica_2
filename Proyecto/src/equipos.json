@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "nombre": "Mercedes-AMG Petronas Formula One Team",
+        "coches": "W11, W12",
+        "campeonatos": "8",
+        "pilotos": "",
+        "temporadas": ""
+    },
+    {
+        "id": "2",
+        "nombre": "Scuderia Ferrari",
+        "coches" : "SF1000, SF21",
+        "campeonatos": "16",
+        "pilotos": "",
+        "temporadas": ""
+    },
+    {
+        "id": "3",
+        "nombre": "Red Bull Racing",
+        "coches": "RB16, RB16B",
+        "campeonatos": "4",
+        "pilotos": "",
+        "temporadas": ""
+    },
+    {
+        "id": "4",
+        "nombre": "Mclaren F1 Team",
+        "coches": "MC35, MC35M",
+        "campeonatos": "8",
+        "pilotos": "",
+        "temporadas": ""
+    },
+    {
+        "id": "5",
+        "nombre": "Renault F1 Team",
+        "coches": "RS20",
+        "campeonatos": "2",
+        "pilotos": "",
+        "temporadas": ""
+    },
+    {
+        "id": "6",
+        "nombre": "Scuderia AlphaTauri",
+        "coches": "AT01, AT02",
+        "campeonatos": "0",
+        "pilotos": "",
+        "temporadas": ""
+    },
+    {
+        "id": "7",
+        "nombre": "Racing Point F1 Team",
+        "coches": "RP20",
+        "campeonatos": "0",
+        "pilotos": "",
+        "temporadas": ""
+    },
+    {
+        "id": "8",
+        "nombre": "Alfa Romeo Racing",
+        "coches": "C39, C41",
+        "campeonatos": "0",
+        "pilotos": "",
+        "temporadas": ""
+    },
+    {
+        "id": "9",
+        "nombre": "Haas F1 Team",
+        "coches": "VF20, VF21",
+        "campeonatos": "0",
+        "pilotos": "",
+        "temporadas": ""
+    },
+    {
+        "id": "10",
+        "nombre": "Williams Racing",
+        "coches": "FW43, FW43B",
+        "campeonatos": "9",
+        "pilotos": "",
+        "temporadas": ""
+    },
+    {
+        "id": "11",
+        "nombre": "Alpine",
+        "coches": "A521",
+        "campeonatos": "0",
+        "pilotos": "",
+        "temporadas": ""
+    },
+    {
+        "id": "12",
+        "nombre": "Astom Martin Formula One Team",
+        "coches": "AMR21",
+        "campeonatos": "0",
+        "pilotos": "",
+        "temporadas": ""
+    }
+]

@@ -1,74 +1,191 @@
 [
     {
         "id": "1",
-        "nombre": "Fernando",
-        "apellido": "Alonso",
-        "equipo": "Alpine"
+        "nombre": "Fernando Alonso",
+        "dorsal": "14",
+        "equipo": "Alpine",
+        "campeonatos": "2"
     },
     {
         "id": "2",
-        "nombre": "Max",
-        "apellido": "Verstappen",
-        "equipo": "Red Bull"
+        "nombre": "Max Verstappen",
+        "dorsal": "33",
+        "equipo": "Red Bull Racing",
+        "campeonatos": "1"
     },
     {
         "id": "3",
-        "Nombre": "Lewis",
-        "apellido": "Hamilton",
-        "equipo": "Mercedes"
+        "Nombre": "Lewis Hamilton",
+        "dorsal": "44",
+        "equipo": "Mercedes-AMG Petronas",
+        "campeonatos": "7"
     },
     {
         "id": "4",
-        "nombre": "Pierre",
-        "apellido": "Bottas",
-        "equipo": "Ferrari"
+        "nombre": "Sergio Perez",
+        "dorsal": "11",
+        "equipo": "Racing Point BWT, Red Bull Racing",
+        "campeonatos": "0"
     },
     {
         "id": "5",
-        "nombre": "Sebastian",
-        "apellido": "Vettel",
-        "equipo": "Ferrari"
+        "nombre": "Daniel Ricciardo",
+        "dorsal": "3",
+        "equipo": "Renault, Mclaren",
+        "campeonatos": "0"
     },
     {
         "id": "6",
-        "nombre": "Carlos",
-        "apellido": "Sainz",
-        "equipo": "McLaren"
+        "nombre": "Carlos Sainz",
+        "dorsal": "55",
+        "equipo": "Mclaren, Ferrari",
+        "campeonatos": "0"
     },
     {
         "id": "7",
-        "nombre": "Kimi",
-        "apellido": "Raikkonen",
-        "equipo": "Ferrari"
+        "nombre": "Alexander Albon",
+        "dorsal": "23",
+        "equi": "Red Bull Racing, Wiliams",
+        "campeonatos": "0"
     },
     {
         "id": "8",
-        "nombre": "Daniel",
-        "apellido": "Ricciardo",
-        "equipo": "McLaren"
+        "nombre": "Charles Leclerc",
+        "dorsal": "16",
+        "equipo": "Ferrari",
+        "campeonatos": "0"
     },
     {
         "id": "9",
-        "nombre": "Antonio",
-        "apellido": "Giovinazzi",
-        "equipo": "Red Bull"
+        "nombre": "Lando Norris",
+        "dorsal": "4",
+        "equipo": "Mclaren",
+        "campeonatos": "0"
     },
     {
-        "id": "10",
-        "nombre": "Sergio",
-        "apellido": "Perez",
-        "equipo": "McLaren"
+        "id":"10",
+        "nombre": "Piere Gasly",
+        "dorsal": "10",
+        "equipo": "Alphatauri",
+        "campeonatos": "0"
     },
     {
-        "id": "11",
-        "nombre": "Kovach",
-        "apellido": "Gasly",
-        "equipo": "Red Bull"
+        "id":"11",
+        "nombre": "Lance Stroll",
+        "dorsal": "18",
+        "equipo": "Racing Point BWT, Aston Martin",
+        "campeonatos": "0"
     },
     {
-        "id": "12",
-        "nombre": "Esteban",
-        "apellido": "Ocon",
-        "equipo": "Ferrari"
+        "id":"12",
+        "nombre": "Esteban Ocon",
+        "dorsal": "31",
+        "equipo": "Renault, Alpine",
+        "campeonatos": "0"
+    },
+    {
+        "id":"13",
+        "nombre": "Sevastian Vettel",
+        "dorsal": "5",
+        "equipo": "Ferrari, Aston Martin",
+        "campeonatos": "4"
+    },
+    {
+        "id":"14",
+        "nombre": "Daniil Kvyat",
+        "dorsal": "26",
+        "equipo": "Alphatauri",
+        "campeonatos": "0"
+    },
+    {
+        "id":"15",
+        "nombre": "Nico Hulkenberg",
+        "dorsal": "27",
+        "equipo": "Racing Point BWT",
+        "campeonatos": "0"
+    },
+    {
+        "id":"16",
+        "nombre": "Kimi Räikkönen",
+        "dorsal": "99",
+        "equipo": "Alfa Romeo Racing",
+        "campeonatos": "1"
+    },
+    {
+        "id":"17",
+        "nombre": "George Russell",
+        "dorsal": "63",
+        "equipo": "Williams",
+        "campeonatos": "0"
+    },
+    {
+        "id":"18",
+        "nombre": "Romain Grosjean",
+        "dorsal": "8",
+        "equipo": "Haas",
+        "campeonatos": "0"
+    },
+    {
+        "id":"19",
+        "nombre": "Kevin Magnussen",
+        "dorsal": "20",
+        "equipo": "Haas",
+        "campeonatos": "0"
+    },
+    {
+        "id":"20",
+        "nombre": "Nicholas Latifi",
+        "dorsal": "6",
+        "equipo": "Williams",
+        "campeonatos": "0"
+    },
+    {
+        "id":"21",
+        "nombre": "Jack Aitken",
+        "dorsal": "22",
+        "equipo": "Williams",
+        "campeonatos": "0"
+    },
+    {
+        "id":"22",
+        "nombre": "Pietro Fittipaldi",
+        "dorsal": "51",
+        "equipo": "Haas",
+        "campeonatos": "0"
+    },
+    {
+        "id":"23",
+        "nombre": "Valteri Bottas",
+        "dorsal": "77",
+        "equipo": "Mercedes-AMG Petronas",
+        "campeonatos": "0"
+    },
+    {
+        "id":"24",
+        "nombre": "Yuki Tsunoda",
+        "dorsal": "22",
+        "equipo": "Alphatauri",
+        "campeonatos": "0"
+    },
+    {
+        "id":"25",
+        "nombre": "Mick Schumacher",
+        "dorsal": "47",
+        "equipo": "Haas",
+        "campeonatos": "0"
+    },
+    {
+        "id":"26",
+        "nombre": "Robert Kubica",
+        "dorsal": "88",
+        "equipo": "Alfa Romeo Racing",
+        "campeonatos": "0"
+    },
+    {
+        "id":"27",
+        "nombre": "Nikita Mazepin",
+        "dorsal": "9",
+        "equipo": "Haas",
+        "campeonatos": "0"
     }
 ]
