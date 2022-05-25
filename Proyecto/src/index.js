@@ -26,9 +26,8 @@ app.use(express.json());
 
 
 app.use('/api/pilotos', require('./routes/pilotos'));
-
-app.use('/api/constructores', require('./routes/constructores'));
 app.use('/api/temporadas', require('./routes/temporadas'));
+app.use('/api/equipos', require('./routes/equipos'));
 
 //inicia el servidor
 
