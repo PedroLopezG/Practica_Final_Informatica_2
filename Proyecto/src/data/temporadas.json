@@ -4,7 +4,7 @@
         "resumen": "La temporada 2020 de Fórmula 1 fue la 71.ª temporada\r\ndel Campeonato Mundial de Fórmula 1 de la historia.\r\nEstuvo organizada por la\r\nFederación Internacional del Automóvil (FIA).\r\nLewis Hamilton logró su séptimo título\r\nal ganar el Gran Premio de Turquía e igualó el récord de Michael Schumacher.\r\nMientras que Mercedes logró su séptimo título consecutivo\r\nen el Gran Premio de Emilia-Romaña.",
         "año": "2020",
         "edicion": "71",
-        "carreras disputadas": "17",
+        "carrerasDisputadas": "17",
         "campeon": "http://localhost:3000/pilotos/23",
         "equipos": "",
         "pilotos": [
@@ -39,7 +39,7 @@
         "resumen": "La temporada 2021 de Fórmula 1 fue la 72.ª temporada\r\ndel Campeonato Mundial de Fórmula 1 de la historia,\r\norganizada por la Federación Internacional del Automóvil (FIA).\r\nLa joven promesa Max Verstappen logro hacerse\r\ncon su primer titulo en una de las temporadas\r\nmas igualadas de los ultimos años",
         "año": "2021",
         "edicion": "72",
-        "carreras disputadas": "22",
+        "carrerasDisputadas": "22",
         "campeon": "http://localhost:3000/pilotos/2",
         "equipos": "",
         "pilotos": [

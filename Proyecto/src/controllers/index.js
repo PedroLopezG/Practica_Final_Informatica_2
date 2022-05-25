@@ -3,22 +3,23 @@
 let dom = {}
 
 window.onload = () => {
-    dom['listado']=document.getElementById('listado')
-    dom['resumen']=document.getElementById('resumen')
+    dom['listado'] = document.getElementById('listado');
+    dom['resumen'] = document.getElementById('resumen');
 
-    clear()
+    clear();
+    
+    obtenerTemporadas();
+    obtenerPilotos();
 
-    obtenerTemporadas()
-        .then((r) => r.forEach(addItem))
 }
 
 function clear() {
     dom['resumen'].innerHTML = ''
     dom['listado'].innerHTML = '<ul></ul>'
-    dom['ul'] = dom['listado'].getElementByTagName('ul')[0]
+    //dom['ul'] = dom['listado'].getElementByTagName('ul')[0]
 }
 
-function addItem(item){
+function addItem(item) {
     let a = document.createElement('a')
     let id = item.id
     a.innerHTML = item.año
@@ -29,8 +30,17 @@ function addItem(item){
     }
 }
 
-function obtenerTemporadas(){
-    let URL = 'localhost:3000/temporadas/'
-    return fetch(URL)
-        .then((r) => r.json()).then(console.log(r))
+function obtenerTemporadas() {
+    let URL = "http://localhost:3000/api/temporadas";
+    fetch(URL)
+        .then(r => r.json()).then(data => console.log(data))
+
+
+}
+function obtenerPilotos() {
+    let URL = "http://localhost:3000/api/pilotos";
+    fetch(URL).then(r => r.json()).then(data => {
+        console.log(data);
+
+    })
 }
