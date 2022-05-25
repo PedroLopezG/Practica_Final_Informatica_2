@@ -9,3 +9,6 @@ rutas y tal y pon la que correcta si esa no funciona que no creo, tambien hay un
 no nos hagamos un lio con el codigo y lo que hiciste con esa url para testear tambien comentalo o algo para que sepa que es, mañana por la mañana yo me pongo a esto a
 fuego asi que si hay algo que no entienda reorganizare el codigo para ver si lo saco pero es que tampoco quiero cambiar mucho lo que has hecho asi que alomejor hago una
 copia o algo no se xd
+
+pero eso que basicamente ahora al ver lo que hay de backend me lio un poco por lo que has puesto para probar y eso, mira lo que he hecho en controllers y a ver si lo 
+puedes conectar
