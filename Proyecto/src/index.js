@@ -28,6 +28,7 @@ app.use(require('./routes/index'));
 app.use('/api/pilotos', require('./routes/pilotos'));
 app.use('/api/pilotosNube', require('./routes/pilotosNube'));
 app.use('/api/constructores', require('./routes/constructores'));
+app.use('/api/temporadas', require('./routes/temporadas'));
 
 //inicia el servidor
 
