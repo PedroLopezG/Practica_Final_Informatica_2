@@ -48,6 +48,14 @@ router.get('/:id/temporadas', (req, res) => {
     console.log(piloto.temporadas);
     res.json(piloto.temporadas);
 });
+router.get('/:id/:param/:param2', (req, res) => {
+    const { id, param, param2 } = req.params;
+    const piloto = _.findWhere(pilotos, { id });
+    console.log(piloto[param][param2]);
+    res.json(piloto[param][param2]);
+});
+
+
 
 router.post('/', (req, res) => { //para crear un piloto nuevo
     const { nombre, equipo } = req.body;
