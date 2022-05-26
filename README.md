@@ -12,3 +12,7 @@ copia o algo no se xd
 
 pero eso que basicamente ahora al ver lo que hay de backend me lio un poco por lo que has puesto para probar y eso, mira lo que he hecho en controllers y a ver si lo 
 puedes conectar
+-------------------------------
+Las funciones para obtener atributos de los json ya están todas en principio.
+He interconcetado los JSON de temporadas y pilotos, faltaría hacer lo mismo con equipos. También he hehco que funcione las llamadas a la api desde el index.js. Ahora en el index.html aparecen en consola los JSON que se piden, por lo que solo quedaría modificar las funciones para que aparezcan como texto las partes de los JSON que queramos.
+También cambié la forma de implementar el script en el html porque como estaba no funcionaba.
