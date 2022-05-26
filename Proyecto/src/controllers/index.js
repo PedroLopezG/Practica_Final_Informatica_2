@@ -7,7 +7,7 @@ window.onload = () => {
     dom['resumen'] = document.getElementById('resumen');
 
     clear();
-    
+
     obtenerTemporadas();
     obtenerPilotos();
 
@@ -34,10 +34,13 @@ function obtenerTemporadas() {
     let URL = "http://localhost:3000/api/temporadas";
     fetch(URL)
         .then(r => r.json()).then(data => console.log(data))
-
-
 }
+
+
+
 function obtenerPilotos() {
+
+
     let URL = "http://localhost:3000/api/pilotos";
     fetch(URL).then(r => r.json()).then(data => {
         console.log(data);
