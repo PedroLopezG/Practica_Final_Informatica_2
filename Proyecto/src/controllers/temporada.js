@@ -30,6 +30,9 @@ function obtenerDatos() {
         dom['edicion'].innerHTML = "Edicion: " + data.edicion;
         dom['ncarreras'].innerHTML = "Carreras disputadas: " + data.carrerasDisputadas;
         obtenerCampeon(data.campeon)
+        
+
+            
         data.pilotos.map(obtenerPilotos)
         data.equipos.map(obtenerEquipos)
         /*data.circuitos.map(obtenerCircuitos)*/
@@ -63,6 +66,7 @@ function obtenerPilotos(url) {
             let li = document.createElement("li")
             li.appendChild(piloto)
             dom["pilotos"].appendChild(li)
+            
         })
 }
 
