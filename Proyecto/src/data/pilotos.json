@@ -5,7 +5,7 @@
         "dorsal": "14",
         "equipo": "Alpine",
         "campeonatos": "2",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "2",
@@ -13,15 +13,15 @@
         "dorsal": "33",
         "equipo": "Red Bull Racing",
         "campeonatos": "1",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "3",
-        "Nombre": "Lewis Hamilton",
+        "nombre": "Lewis Hamilton",
         "dorsal": "44",
         "equipo": "Mercedes-AMG Petronas",
         "campeonatos": "7",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "4",
@@ -29,7 +29,7 @@
         "dorsal": "11",
         "equipo": "Racing Point BWT, Red Bull Racing",
         "campeonatos": "0",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "5",
@@ -37,7 +37,7 @@
         "dorsal": "3",
         "equipo": "Renault, Mclaren",
         "campeonatos": "0",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "6",
@@ -45,7 +45,7 @@
         "dorsal": "55",
         "equipo": "Mclaren, Ferrari",
         "campeonatos": "0",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "7",
@@ -61,7 +61,7 @@
         "dorsal": "16",
         "equipo": "Ferrari",
         "campeonatos": "0",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "9",
@@ -69,7 +69,7 @@
         "dorsal": "4",
         "equipo": "Mclaren",
         "campeonatos": "0",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "10",
@@ -77,7 +77,7 @@
         "dorsal": "10",
         "equipo": "Alphatauri",
         "campeonatos": "0",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "11",
@@ -85,7 +85,7 @@
         "dorsal": "18",
         "equipo": "Racing Point BWT, Aston Martin",
         "campeonatos": "0",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "12",
@@ -93,7 +93,7 @@
         "dorsal": "31",
         "equipo": "Renault, Alpine",
         "campeonatos": "0",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "13",
@@ -101,7 +101,7 @@
         "dorsal": "5",
         "equipo": "Ferrari, Aston Martin",
         "campeonatos": "4",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "14",
@@ -125,7 +125,7 @@
         "dorsal": "99",
         "equipo": "Alfa Romeo Racing",
         "campeonatos": "1",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "17",
@@ -133,7 +133,7 @@
         "dorsal": "63",
         "equipo": "Williams",
         "campeonatos": "0",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "18",
@@ -157,7 +157,7 @@
         "dorsal": "6",
         "equipo": "Williams",
         "campeonatos": "0",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "21",
@@ -181,7 +181,7 @@
         "dorsal": "77",
         "equipo": "Mercedes-AMG Petronas",
         "campeonatos": "0",
-        "temporadas": "[http://localhost:3000/api/temporadas/1], [http://localhost:3000/api/temporadas/2]"
+        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
     },
     {
         "id": "24",

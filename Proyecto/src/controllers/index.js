@@ -16,6 +16,7 @@ window.onload = () => {
 function clear() {
     dom['resumen'].innerHTML = ''
     dom['listado'].innerHTML = '<ul></ul>'
+    dom['listado'].innerHTML = '<h2>Temporadas:</h2>'
     //dom['ul'] = dom['listado'].getElementByTagName('ul')[0]
 }
 
@@ -40,6 +41,7 @@ function obtenerTemporadas() {
             }
         })
 }
+
 
 
 
