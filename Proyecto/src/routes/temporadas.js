@@ -24,12 +24,7 @@ router.get('/:id/resumen', (req, res) => {
     console.log(temporada.resumen);
     res.json(temporada.resumen);
 });
-router.get('/:id/:param', (req, res) => {
-    const { id, param } = req.params;
-    const temporada = _.findWhere(temporadas, { id });
-    console.log(temporada[param]);
-    res.json(temporada[param]);
-});
+
 router.get('/:id/año', (req, res) => {
     const { id } = req.params;
     const temporada = _.findWhere(temporadas, { id });
