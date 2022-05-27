@@ -1,0 +1,12 @@
+html { 
+    background: linear-gradient(
+        to bottom right,
+        #000000, #8b0000);
+    background-size: cover;
+    background-attachment: fixed;
+}
+ul{
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+}

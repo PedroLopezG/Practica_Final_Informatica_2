@@ -2,3 +2,16 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+html { 
+    background: linear-gradient(
+        to bottom right,
+        #161616,#ff5e00);
+    background-size: cover;
+    background-attachment: fixed;
+}
+ul{
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+}
