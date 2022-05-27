@@ -1,5 +1,6 @@
 "use strict";
 
+let dom = {}
 
 /*let btn = document.getElementById('btn');
 btn.addEventListener('click', event => {
@@ -156,6 +157,8 @@ function puntuar(p,t){
     post(pos,t,carreras,pilotos,equipos)
     }
     console.log(pos);
+
+    
     
 }
 function post(p,t,n,pilotos,e){
@@ -174,3 +177,26 @@ function post(p,t,n,pilotos,e){
     }));
 }
 
+window.onload = () => {
+    dom['listado'] = document.getElementById('listado');
+    
+    clear();
+
+    obtenerTemporadas();
+}
+
+function clear() {
+    dom['listado'].innerHTML = '<ul></ul>'
+}
+
+function obtenerTemporadas() {
+    let URL = "http://localhost:3000/api/temporadas";
+    fetch(URL)
+        .then(r => r.json()).then(data => {
+            console.log(data);
+            for(let i=0; i<data.length; i++){
+                console.log(data[i].año);
+                dom['listado'].innerHTML += `<li><a href="temporadas.html?id=${data[i].id}">${data[i].año}</a></li>`
+            }
+        })
+}

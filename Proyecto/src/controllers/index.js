@@ -9,7 +9,6 @@ window.onload = () => {
     clear();
 
     obtenerTemporadas();
-    //obtenerPilotos();
 
 }
 
@@ -17,10 +16,9 @@ function clear() {
     dom['resumen'].innerHTML = ''
     dom['listado'].innerHTML = '<ul></ul>'
     dom['listado'].innerHTML = '<h2>Temporadas:</h2>'
-    //dom['ul'] = dom['listado'].getElementByTagName('ul')[0]
 }
 
-function addItem(item) {
+/*function addItem(item) {
     let a = document.createElement('a')
     let id = item.id
     let lista = dom['listado'];
@@ -28,7 +26,7 @@ function addItem(item) {
     a.href = `temporadas.html?id=${id}`
     let li = document.createElement('li')
     li.appendChild(a);
-}
+}*/
 
 function obtenerTemporadas() {
     let URL = "http://localhost:3000/api/temporadas";
@@ -44,17 +42,3 @@ function obtenerTemporadas() {
 
 
 
-
-
-
-function obtenerPilotos() {
-
-
-    let URL = "http://localhost:3000/api/pilotos";
-    fetch(URL).then(r => r.json()).then(data => {
-        console.log(data);
-        //let nombre = dom['resumen'];
-        // nombre.innerHTML = data[0].nombre;
-
-    })
-}
