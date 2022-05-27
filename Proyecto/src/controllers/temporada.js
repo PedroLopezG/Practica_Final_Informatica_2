@@ -12,6 +12,7 @@ window.onload = () => {
     dom['pilotos'].innerHTML = '<ul><p> Pilotos</p></ul>'
     dom['equipos'] = document.getElementById('equipos')
     dom['equipos'].innerHTML = '<ul><p> Equipos</p></ul>'
+    dom['tupos'] = document.getElementById('tupos')
 
     obtenerDatos();
 
@@ -25,10 +26,11 @@ function obtenerDatos() {
     let URL = `http://localhost:3000/api/temporadas/${id}`;
     fetch(URL).then(r => r.json()).then(data => {
         console.log(data);
-        dom['año'].innerHTML = "Temporada " + data.año;
+        dom['año'].innerHTML = data.año;
         dom['resumen'].innerHTML = data.resumen;
         dom['edicion'].innerHTML = "Edicion: " + data.edicion;
         dom['ncarreras'].innerHTML = "Carreras disputadas: " + data.carrerasDisputadas;
+        dom['tupos'].innerHTML = data.tupos;
         obtenerCampeon(data.campeon)
         for (let i = 0; i < data.pilotos.length; i++) {
             obtenerPilotos(data.pilotos[i])

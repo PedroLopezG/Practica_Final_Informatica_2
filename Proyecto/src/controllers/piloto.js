@@ -19,7 +19,7 @@ function obtenerDatos() {
         console.log(data);
         dom['nombre'].innerHTML = data.nombre;
         dom['dorsal'].innerHTML = "Dorsal: " + data.dorsal;
-       for (let i = 0; i < data.equipo.length; i++) {
+        for (let i = 0; i < data.equipo.length; i++) {
             obtenerEquipos(data.equipo[i])
         }
         for (let i = 0; i < data.temporadas.length; i++) {

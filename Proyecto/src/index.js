@@ -1,8 +1,6 @@
 //IMPORTANTE: He creado un script que reinicia la conexión cada vez que se guardan cambios
+// hacer cd Proyecto/src
 // usar "npm run dev" para inciar
-
-
-
 
 
 

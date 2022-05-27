@@ -3,6 +3,12 @@ const router = Router();
 const fetch = require('node-fetch');
 const _ = require('underscore');
 const temporadas = require('../data/temporadas.json');
+const fs = require('fs');
+
+
+const temporadasfs = JSON.parse(
+    fs.readFileSync(`${__dirname}/../data/temporadas.json`)
+    );
 
 router.get('/', (req, res) => {
     res.json(temporadas);
@@ -49,6 +55,23 @@ router.get('/:id/carrerasDisputadas', (req, res) => {
     console.log(temporada.carrerasDisputadas);
     res.json(temporada.carrerasDisputadas);
 });
+
+router.post('/', (req, res) => {
+    const newId = parseFloat(temporadasfs[temporadasfs.length - 1].id) + 1;
+    const newTemporada = Object.assign({"id": `${newId}`}, req.body)
+    temporadasfs.push(newTemporada);
+
+    fs.writeFile(
+        `${__dirname}/../data/temporadas.json`,
+        JSON.stringify(temporadasfs),
+        (err) => {
+            res.status(201).json({
+                message: 'Temporada creada correctamente',
+                
+            })
+        }
+    )
+})
 
 
 

@@ -8,7 +8,6 @@
         ],
         "campeonatos": "2",
         "temporadas": [
-            "http://localhost:3000/api/temporadas/1",
             "http://localhost:3000/api/temporadas/2"
         ]
     },
