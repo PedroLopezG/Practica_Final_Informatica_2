@@ -3,216 +3,347 @@
         "id": "1",
         "nombre": "Fernando Alonso",
         "dorsal": "14",
-        "equipo": "Alpine",
+        "equipo": [
+            "http://localhost:3000/api/equipos/11"
+        ],
         "campeonatos": "2",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "2",
         "nombre": "Max Verstappen",
         "dorsal": "33",
-        "equipo": "Red Bull Racing",
+        "equipo": [
+            "http://localhost:3000/api/equipos/3"
+        ],
         "campeonatos": "1",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "3",
         "nombre": "Lewis Hamilton",
         "dorsal": "44",
-        "equipo": "Mercedes-AMG Petronas",
+        "equipo": [
+            "http://localhost:3000/api/equipos/1"
+        ],
         "campeonatos": "7",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "4",
         "nombre": "Sergio Perez",
         "dorsal": "11",
-        "equipo": "Racing Point BWT, Red Bull Racing",
+        "equipo": [
+            "http://localhost:3000/api/equipos/7",
+            "http://localhost:3000/api/equipos/3"
+        ],
         "campeonatos": "0",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "5",
         "nombre": "Daniel Ricciardo",
         "dorsal": "3",
-        "equipo": "Renault, Mclaren",
+        "equipo": [
+            "http://localhost:3000/api/equipos/5",
+            "http://localhost:3000/api/equipos/4"
+        ],
         "campeonatos": "0",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "6",
         "nombre": "Carlos Sainz",
         "dorsal": "55",
-        "equipo": "Mclaren, Ferrari",
+        "equipo": [
+            "http://localhost:3000/api/equipos/4",
+            "http://localhost:3000/api/equipos/2"
+        ],
         "campeonatos": "0",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "7",
         "nombre": "Alexander Albon",
         "dorsal": "23",
-        "equi": "Red Bull Racing, Wiliams",
+        "equipo": [
+            "http://localhost:3000/api/equipos/3",
+            "http://localhost:3000/api/equipos/10"
+        ],
         "campeonatos": "0",
-        "temporadas": "http://localhost:3000/api/temporadas/1"
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1"
+        ]
     },
     {
         "id": "8",
         "nombre": "Charles Leclerc",
         "dorsal": "16",
-        "equipo": "Ferrari",
+        "equipo": [
+            "http://localhost:3000/api/equipos/2"
+        ],
         "campeonatos": "0",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "9",
         "nombre": "Lando Norris",
         "dorsal": "4",
-        "equipo": "Mclaren",
+        "equipo": [
+            "http://localhost:3000/api/equipos/4"
+        ],
         "campeonatos": "0",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "10",
         "nombre": "Piere Gasly",
         "dorsal": "10",
-        "equipo": "Alphatauri",
+        "equipo": [
+            "http://localhost:3000/api/equipos/6"
+        ],
         "campeonatos": "0",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "11",
         "nombre": "Lance Stroll",
         "dorsal": "18",
-        "equipo": "Racing Point BWT, Aston Martin",
+        "equipo": [
+            "http://localhost:3000/api/equipos/7",
+            "http://localhost:3000/api/equipos/12"
+        ],
         "campeonatos": "0",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "12",
         "nombre": "Esteban Ocon",
         "dorsal": "31",
-        "equipo": "Renault, Alpine",
+        "equipo": [
+            "http://localhost:3000/api/equipos/5",
+            "http://localhost:3000/api/equipos/11"
+        ],
         "campeonatos": "0",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "13",
         "nombre": "Sevastian Vettel",
         "dorsal": "5",
-        "equipo": "Ferrari, Aston Martin",
+        "equipo": [
+            "http://localhost:3000/api/equipos/2",
+            "http://localhost:3000/api/equipos/12"
+        ],
         "campeonatos": "4",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "14",
         "nombre": "Daniil Kvyat",
         "dorsal": "26",
-        "equipo": "Alphatauri",
+        "equipo": [
+            "http://localhost:3000/api/equipos/6"
+        ],
         "campeonatos": "0",
-        "temporadas": "http://localhost:3000/api/temporadas/1"
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1"
+        ]
     },
     {
         "id": "15",
         "nombre": "Nico Hulkenberg",
         "dorsal": "27",
-        "equipo": "Racing Point BWT",
+        "equipo": [
+            "http://localhost:3000/api/equipos/7"
+        ],
         "campeonatos": "0",
-        "temporadas": "http://localhost:3000/api/temporadas/1"
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1"
+        ]
     },
     {
         "id": "16",
         "nombre": "Kimi Räikkönen",
         "dorsal": "99",
-        "equipo": "Alfa Romeo Racing",
+        "equipo": [
+            "http://localhost:3000/api/equipos/8"
+        ],
         "campeonatos": "1",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "17",
         "nombre": "George Russell",
         "dorsal": "63",
-        "equipo": "Williams",
+        "equipo": [
+            "http://localhost:3000/api/equipos/10"
+        ],
         "campeonatos": "0",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "18",
         "nombre": "Romain Grosjean",
         "dorsal": "8",
-        "equipo": "Haas",
+        "equipo": [
+            "http://localhost:3000/api/equipos/9"
+        ],
         "campeonatos": "0",
-        "temporadas": "http://localhost:3000/api/temporadas/1"
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1"
+        ]
     },
     {
         "id": "19",
         "nombre": "Kevin Magnussen",
         "dorsal": "20",
-        "equipo": "Haas",
+        "equipo": [
+            "http://localhost:3000/api/equipos/9"
+        ],
         "campeonatos": "0",
-        "temporadas": "http://localhost:3000/api/temporadas/1"
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1"
+        ]
     },
     {
         "id": "20",
         "nombre": "Nicholas Latifi",
         "dorsal": "6",
-        "equipo": "Williams",
+        "equipo": [
+            "http://localhost:3000/api/equipos/10"
+        ],
         "campeonatos": "0",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "21",
         "nombre": "Jack Aitken",
         "dorsal": "22",
-        "equipo": "Williams",
+        "equipo": [
+            "http://localhost:3000/api/equipos/10"
+        ],
         "campeonatos": "0",
-        "temporadas": "http://localhost:3000/api/temporadas/1"
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1"
+        ]
     },
     {
         "id": "22",
         "nombre": "Pietro Fittipaldi",
         "dorsal": "51",
-        "equipo": "Haas",
+        "equipo": [
+            "http://localhost:3000/api/equipos/9"
+        ],
         "campeonatos": "0",
-        "temporadas": "http://localhost:3000/api/temporadas/1"
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1"
+        ]
     },
     {
         "id": "23",
         "nombre": "Valteri Bottas",
         "dorsal": "77",
-        "equipo": "Mercedes-AMG Petronas",
+        "equipo": [
+            "http://localhost:3000/api/equipos/1"
+        ],
         "campeonatos": "0",
-        "temporadas": ["http://localhost:3000/api/temporadas/1", "http://localhost:3000/api/temporadas/2"]
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "24",
         "nombre": "Yuki Tsunoda",
         "dorsal": "22",
-        "equipo": "Alphatauri",
+        "equipo": [
+            "http://localhost:3000/api/equipos/6"
+        ],
         "campeonatos": "0",
-        "temporadas": "http://localhost:3000/api/temporadas/2"
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "25",
         "nombre": "Mick Schumacher",
         "dorsal": "47",
-        "equipo": "Haas",
+        "equipo": [
+            "http://localhost:3000/api/equipos/9"
+        ],
         "campeonatos": "0",
-        "temporadas": "http://localhost:3000/api/temporadas/2"
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "26",
         "nombre": "Robert Kubica",
         "dorsal": "88",
-        "equipo": "Alfa Romeo Racing",
+        "equipo": [
+            "http://localhost:3000/api/equipos/8"
+        ],
         "campeonatos": "0",
-        "temporadas": "http://localhost:3000/api/temporadas/2"
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "27",
         "nombre": "Nikita Mazepin",
         "dorsal": "9",
-        "equipo": "Haas",
+        "equipo": [
+            "http://localhost:3000/api/equipos/9"
+        ],
         "campeonatos": "0",
-        "temporadas": "http://localhost:3000/api/temporadas/2"
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/2"
+        ]
     }
 ]

@@ -4,95 +4,170 @@
         "nombre": "Mercedes-AMG Petronas Formula One Team",
         "coches": "W11, W12",
         "campeonatos": "8",
-        "pilotos": "",
-        "temporadas": ""
+        "pilotos": [
+            "http://localhost:3000/api/pilotos/3",
+            "http://localhost:3000/api/pilotos/23"
+        ],
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "2",
         "nombre": "Scuderia Ferrari",
-        "coches" : "SF1000, SF21",
+        "coches": "SF1000, SF21",
         "campeonatos": "16",
-        "pilotos": "",
-        "temporadas": ""
+        "pilotos": [
+            "http://localhost:3000/api/pilotos/6",
+            "http://localhost:3000/api/pilotos/8",
+            "http://localhost:3000/api/pilotos/13"
+        ],
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "3",
         "nombre": "Red Bull Racing",
         "coches": "RB16, RB16B",
         "campeonatos": "4",
-        "pilotos": "",
-        "temporadas": ""
+        "pilotos": [
+            "http://localhost:3000/api/pilotos/2",
+            "http://localhost:3000/api/pilotos/4",
+            "http://localhost:3000/api7pilotos/7"
+        ],
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "4",
         "nombre": "Mclaren F1 Team",
         "coches": "MC35, MC35M",
         "campeonatos": "8",
-        "pilotos": "",
-        "temporadas": ""
+        "pilotos": [
+            "http://localhost:3000/api/pilotos/5",
+            "http://localhost:3000/api/pilotos/6",
+            "http://localhost:3000/api/pilotos/9"
+        ],
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "5",
         "nombre": "Renault F1 Team",
         "coches": "RS20",
         "campeonatos": "2",
-        "pilotos": "",
-        "temporadas": ""
+        "pilotos": [
+            "http://localhost:3000/api/pilotos/5",
+            "http://localhost:3000/api/pilotos/12"
+        ],
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1"
+        ]
     },
     {
         "id": "6",
         "nombre": "Scuderia AlphaTauri",
         "coches": "AT01, AT02",
         "campeonatos": "0",
-        "pilotos": "",
-        "temporadas": ""
+        "pilotos": [
+            "http://localhost:3000/api/pilotos/10",
+            "http://localhost:3000/api/pilotos/14",
+            "http://localhost:3000/api/pilotos/24"
+        ],
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "7",
         "nombre": "Racing Point F1 Team",
         "coches": "RP20",
         "campeonatos": "0",
-        "pilotos": "",
-        "temporadas": ""
+        "pilotos": [
+            "http://localhost:3000/api/pilotos/4",
+            "http://localhost:3000/api/pilotos/11",
+            "http://localhost:3000/api/pilotos/15"
+        ],
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1"
+        ]
     },
     {
         "id": "8",
         "nombre": "Alfa Romeo Racing",
         "coches": "C39, C41",
         "campeonatos": "0",
-        "pilotos": "",
-        "temporadas": ""
+        "pilotos": [
+            "http://localhost:3000/api/pilotos/16",
+            "http://localhost:3000/api/pilotos/26"
+        ],
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "9",
         "nombre": "Haas F1 Team",
         "coches": "VF20, VF21",
         "campeonatos": "0",
-        "pilotos": "",
-        "temporadas": ""
+        "pilotos": [
+            "http://localhost:3000/api/pilotos/18",
+            "http://localhost:3000/api/pilotos/19",
+            "http://localhost:3000/api/pilotos/22",
+            "http://localhost:3000/api/pilotos/25",
+            "http://localhost:3000/api/pilotos/27"
+        ],
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "10",
         "nombre": "Williams Racing",
         "coches": "FW43, FW43B",
         "campeonatos": "9",
-        "pilotos": "",
-        "temporadas": ""
+        "pilotos": [
+            "http://localhost:3000/api/pilotos/7",
+            "http://localhost:3000/api/pilotos/17",
+            "http://localhost:3000/api/pilotos/20",
+            "http://localhost:3000/api/pilotos/21"
+        ],
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/1",
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "11",
         "nombre": "Alpine",
         "coches": "A521",
         "campeonatos": "0",
-        "pilotos": "",
-        "temporadas": ""
+        "pilotos": [
+            "http://localhost:3000/api/pilotos/1",
+            "http://localhost:3000/api/pilotos/12"
+        ],
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/2"
+        ]
     },
     {
         "id": "12",
         "nombre": "Astom Martin Formula One Team",
         "coches": "AMR21",
         "campeonatos": "0",
-        "pilotos": "",
-        "temporadas": ""
+        "pilotos": ["http://localhost:3000/api/pilotos/11", "http://localhost:3000/api/pilotos/13"],
+        "temporadas": [
+            "http://localhost:3000/api/temporadas/2"
+        ]
     }
 ]
