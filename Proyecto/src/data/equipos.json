@@ -165,7 +165,10 @@
         "nombre": "Astom Martin Formula One Team",
         "coches": "AMR21",
         "campeonatos": "0",
-        "pilotos": ["http://localhost:3000/api/pilotos/11", "http://localhost:3000/api/pilotos/13"],
+        "pilotos": [
+            "http://localhost:3000/api/pilotos/11",
+            "http://localhost:3000/api/pilotos/13"
+        ],
         "temporadas": [
             "http://localhost:3000/api/temporadas/2"
         ]

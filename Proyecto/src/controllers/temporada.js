@@ -39,48 +39,49 @@ function obtenerDatos() {
         data.equipos.map(obtenerEquipos)
         /*data.circuitos.map(obtenerCircuitos)*/
 
-    })}
+    })
+}
 
-    /*function obtenerCircuitos(data) {
-        const circuitos = document.createElement("p")
-        circuitos.innerHTML = data.circuitos
-        let li = document.createElement("li")
-        li.appendChild(circuitos)
-        dom["circuitos"].appendChild(li)
-    
-    }*/
+/*function obtenerCircuitos(data) {
+    const circuitos = document.createElement("p")
+    circuitos.innerHTML = data.circuitos
+    let li = document.createElement("li")
+    li.appendChild(circuitos)
+    dom["circuitos"].appendChild(li)
+ 
+}*/
 
 
-    function obtenerCampeon(url) {
-        return fetch(url)
-            .then((r) => r.json())
-            .then((e) => {
-                const idUrl = obtenerID(url)
-                dom['campeon'].innerHTML = `<a href="pilotos.html?id=${idUrl}">Campeon: ${e.nombre}</a>`
-            })
-    }
-    /*function obtenerPilotos(url) {
-        return fetch(url)
-            .then((r) => r.json())
-            .then((e) => {
-                const piloto = document.createElement("p")
-                piloto.innerHTML = `<a href="pilotos.html?id=${url}">${e.nombre}</a>`
-                let li = document.createElement("li")
-                li.appendChild(piloto)
-                dom["pilotos"].appendChild(li)
-                
-            })
-    }*/
-    function obtenerPilotos(url) {
-        return fetch(url)
-            .then((r) => r.json())
-            .then((e) => {
+function obtenerCampeon(url) {
+    return fetch(url)
+        .then((r) => r.json())
+        .then((e) => {
+            const idUrl = obtenerID(url)
+            dom['campeon'].innerHTML = `<a href="pilotos.html?id=${idUrl}">Campeon: ${e.nombre}</a>`
+        })
+}
+/*function obtenerPilotos(url) {
+    return fetch(url)
+        .then((r) => r.json())
+        .then((e) => {
+            const piloto = document.createElement("p")
+            piloto.innerHTML = `<a href="pilotos.html?id=${url}">${e.nombre}</a>`
+            let li = document.createElement("li")
+            li.appendChild(piloto)
+            dom["pilotos"].appendChild(li)
+            
+        })
+}*/
+function obtenerPilotos(url) {
+    return fetch(url)
+        .then((r) => r.json())
+        .then((e) => {
 
-                const idUrl = obtenerID(url)
-                dom['pilotos'].innerHTML += `<li><a href="pilotos.html?id=${idUrl}">${e.nombre}</a></li>`
-            })
+            const idUrl = obtenerID(url)
+            dom['pilotos'].innerHTML += `<li><a href="pilotos.html?id=${idUrl}">${e.nombre}</a></li>`
+        })
 
-    }
+}
 function obtenerEquipos(url) {
     return fetch(url)
         .then((r) => r.json())
@@ -90,24 +91,24 @@ function obtenerEquipos(url) {
         })
 
 }
-    /*function obtenerEquipos(url) {
-        return fetch(url)
-            .then((r) => r.json())
-            .then((e) => {
-                const equipo = document.createElement("p")
-                equipo.innerHTML = `<a href="equipos.html?id=${url}">${e.nombre}</a>`
-                let li = document.createElement("li")
-                li.appendChild(equipo)
-                dom["equipos"].appendChild(li)
-            })
-    }*/
+/*function obtenerEquipos(url) {
+    return fetch(url)
+        .then((r) => r.json())
+        .then((e) => {
+            const equipo = document.createElement("p")
+            equipo.innerHTML = `<a href="equipos.html?id=${url}">${e.nombre}</a>`
+            let li = document.createElement("li")
+            li.appendChild(equipo)
+            dom["equipos"].appendChild(li)
+        })
+}*/
 
 
 
-    function obtenerID(url) {
-        return Number(url.match(/([0-9]*)\/?$/)[1]);
+function obtenerID(url) {
+    return Number(url.match(/([0-9]*)\/?$/)[1]);
 
-    }
+}
 
 /*function obtenerPilotos() {
 
